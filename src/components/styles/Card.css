@@ -1,0 +1,14 @@
+.same-width-button {
+  width: 100%;
+}
+
+.centered-buttons {
+  text-align: center;
+}
+
+.project-description {
+  max-height: 200px;
+  max-width: fit-content; 
+  overflow-y: auto; 
+  overflow-wrap: break-word;
+}

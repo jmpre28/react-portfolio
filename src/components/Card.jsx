@@ -1,40 +1,41 @@
-import React from 'react';
-import { Card, Image, Button } from 'semantic-ui-react';
+import React, { useState } from 'react';
+import { Card, Image, Modal, Button } from 'semantic-ui-react';
+import './styles/Card.css';
 
-const ProjectCard = ({ title, description, imageUrl, deployLink, githubLink }) => {
+export default function ProjectCard({ title, description, imageUrl, deployLink, githubLink }) {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  function handleOpenModal() {
+    setModalOpen(true);
+  }
+
+  function handleCloseModal() {
+    setModalOpen(false);
+  }
+
   return (
     <Card>
-      {imageUrl && <Image src={imageUrl} wrapped ui={false} />}
-      <Card.Content>
-        <Card.Header>{title}</Card.Header>
-        <Card.Description>{description}</Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        {deployLink && (
-          <Button
-            as="a"
-            href={deployLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            primary
-          >
-            Deployed App
-          </Button>
-        )}
-        {githubLink && (
-          <Button
-            as="a"
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            secondary
-          >
-            GitHub Repo
-          </Button>
-        )}
-      </Card.Content>
+      <Modal
+        open={modalOpen}
+        onClose={handleCloseModal}
+        trigger={<Image src={imageUrl} wrapped ui={false} onClick={handleOpenModal} />}
+      >
+        <Modal.Header>{title}</Modal.Header>
+        <Modal.Content>
+          <p>{description}</p>
+          <Modal.Description>
+            <p>For more details about this project, navigate to the deployment or visit the GitHub repo!</p>
+            <div>
+              <Button as='a' href={deployLink} target="_blank" rel="noopener noreferrer" primary>
+                Deployed App
+              </Button>
+              <Button as='a' href={githubLink} target="_blank" rel="noopener noreferrer" secondary>
+                GitHub Repo
+              </Button>
+            </div>
+          </Modal.Description>
+        </Modal.Content>
+      </Modal>
     </Card>
   );
-};
-
-export default ProjectCard;
+}
