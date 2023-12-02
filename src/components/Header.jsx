@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Header as SemanticHeader, Grid } from 'semantic-ui-react'; 
+import Nav from './Nav';
 import './styles/Header.css'
 
 export default function Header() {
