@@ -1,14 +1,14 @@
+import React from 'react';
+import { Container, Header as SemanticHeader } from 'semantic-ui-react'; // Import Semantic UI Container and Header components
+import Nav from './Nav';
+
 export default function Header() {
-    return (
-        <header className="navbar">           
-            <nav>
-            <h2 id="name">Jake Preciado</h2>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                </ul>
-            </nav>
-        </header>
-    )
+  return (
+    <Container>
+      <SemanticHeader as="header" textAlign="center" className="header">
+        <h1 id="name">Jake Preciado</h1>
+        <Nav />
+      </SemanticHeader>
+    </Container>
+  );
 }
