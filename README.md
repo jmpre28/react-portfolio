@@ -9,7 +9,7 @@ for a clean UI, and CSS for styling.
 
 <li><b>Project Details:</b> Each project is accompanied by a detailed description, images, and links to live deployments or GitHub repositories.</li>
 
-<li><b>About Me Section:</b> Learn more about me, my educational background, and my passion for web development through a dedicated "About Me" section.</li>
+<li><b>About Me Section:</b> Learn more about me and my passion for web development through my "About Me" section.</li>
 
 <li><b>Responsive Design:</b> The portfolio is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.</li>
 
