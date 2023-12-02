@@ -8,7 +8,7 @@
 
 .project-description {
   max-height: 200px;
-  max-width: fit-content; 
-  overflow-y: auto; 
+  max-width: fit-content;
+  overflow-y: auto;
   overflow-wrap: break-word;
 }

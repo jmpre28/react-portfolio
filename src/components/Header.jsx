@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Header as SemanticHeader, Grid } from 'semantic-ui-react'; // Import Semantic UI Container and Header components
-import Nav from './Nav';
+import { Container, Header as SemanticHeader, Grid } from 'semantic-ui-react'; 
 import './styles/Header.css'
 
 export default function Header() {

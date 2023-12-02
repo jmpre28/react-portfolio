@@ -26,10 +26,10 @@ export default function ProjectCard({ title, description, imageUrl, deployLink, 
           <Modal.Description>
             <p>For more details about this project, navigate to the deployment or visit the GitHub repo!</p>
             <div>
-              <Button as='a' href={deployLink} target="_blank" rel="noopener noreferrer" primary>
+              <Button as='a' href={deployLink} primary>
                 Deployed App
               </Button>
-              <Button as='a' href={githubLink} target="_blank" rel="noopener noreferrer" secondary>
+              <Button as='a' href={githubLink} secondary>
                 GitHub Repo
               </Button>
             </div>

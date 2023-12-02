@@ -16,7 +16,7 @@ export default function AboutMe() {
                     <p>
                         In the ever-evolving field of web development, I find joy in building intuitive and visually appealing digital
                         experiences. From front-end aesthetics to back-end functionality, each line of code represents a step closer to my goal
-                        of creating impactful and user-friendly websites. I love the opportunities I have to enhance my critical thinking and 
+                        of creating impactful and user-friendly websites. I love the opportunities I have to enhance my critical thinking and
                         problem-solving skills as I am greatly fulfilled in my work through doing so!
                     </p>
                     <p>
