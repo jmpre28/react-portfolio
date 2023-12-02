@@ -1,5 +1,18 @@
 # Jake Preciado | React Portfolio
 
+Welcome! This is a React-based portfolio showcasing my skills, projects, and experiences in the field of web development. It serves as a centralized hub for anyone 
+interested in learning more about my journey, expertise, and the projects I've worked on. Technologies involved include React and React Router, Semantic UI React
+for a clean UI, and CSS for styling.
+
+## Features
+<li>Interactive Portfolio Display: Navigate through a visually appealing and user-friendly interface that presents a collection of my projects.</li>
+
+<li>Project Details: Each project is accompanied by a detailed description, images, and links to live deployments or GitHub repositories.</li>
+
+<li>About Me Section: Learn more about me, my educational background, and my passion for web development through a dedicated "About Me" section.</li>
+
+<li>Responsive Design: The portfolio is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.</li>
+
 ## User Story
 ```
 AS AN employer looking for candidates with experience building single-page applications
