@@ -3,16 +3,19 @@ import './styles/Footer.css';
 
 export default function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <p>
-          © 2023 Jake Preciado
-          <br />
-          <a href="https://github.com/jmpre28">
-            Visit My GitHub!
-          </a>
-        </p>
-      </div>
-    </footer>
+    <>
+      <footer className="navbar navbar-dark">
+        <div className="container">
+          <span className="navbar-text">
+            &copy; Jake Preciado. All rights reserved.
+            <div className="footer-content">
+              <a href="https://github.com/jmpre28">
+                Visit My GitHub!
+              </a>
+            </div>
+          </span>
+        </div>
+      </footer>
+    </>
   );
 };

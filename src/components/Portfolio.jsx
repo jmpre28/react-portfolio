@@ -3,12 +3,12 @@ import { Container, Card } from 'semantic-ui-react';
 import ProjectCard from './Card';
 
 // Direct image imports for the project cards
-import IntelliStockLogo from './images/intellistock.jpg';
-import CodeQuiz from './images/code-quiz.jpg';
-import PasswordGenerator from './images/password-generator.jpg';
-import WorkScheduler from './images/work-scheduler.jpg';
-import AudibleAtmosphere from './images/audible-atmosphere.jpg';
-import PokeSquads from './images/pokesquads.jpg';
+import IntelliStockLogo from '../assets/images/intellistock.jpg';
+import CodeQuiz from '../assets/images/code-quiz.jpg';
+import PasswordGenerator from '../assets/images/password-generator.jpg';
+import WorkScheduler from '../assets/images/work-scheduler.jpg';
+import AudibleAtmosphere from '../assets/images/audible-atmosphere.jpg';
+import PokeSquads from '../assets/images/pokesquads.jpg';
 
 const projects = [
     {

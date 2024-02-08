@@ -1,0 +1,40 @@
+li {
+    list-style-type: square;
+}
+
+.section-header {
+    color: rgb(255, 0, 0);
+}
+
+.custom-container {
+    padding: 20px;
+}
+
+.school-logo {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.education {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.faded-city {
+    color: #888;
+    margin-left: 10px;
+}
+
+
+.experience-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: large;
+    font-weight: bold;
+}
