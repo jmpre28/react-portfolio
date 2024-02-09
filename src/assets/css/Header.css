@@ -5,6 +5,12 @@
 
 .nav-link {
   color: white !important;
+  margin-right: 12px;
+  
+}
+
+.nav-link:hover {
+  color: darkgrey !important;
 }
 
 .nav-links-container {
@@ -17,4 +23,5 @@
   color: white;
   margin-left: 10px;
   padding: 10px;
+  font-family: "Playfair Display", serif !important;
 }

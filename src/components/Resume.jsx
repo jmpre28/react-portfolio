@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import './styles/resume.css';
 import BYU from '../assets/images/Brigham_Young_University_medallion.png';
 import UofU from '../assets/images/UofU.png';
-import './styles/resume.css';
+import './assets/css/resume.css'
 export default function Resume() {
     return (
         <>

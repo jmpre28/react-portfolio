@@ -7,7 +7,8 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/style.css';
 
 export default function App() {
   return (
