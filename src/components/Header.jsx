@@ -6,26 +6,6 @@ import '../assets/css/Header.css';
 export default function Header() {
   return (
     <>
-      {/* <Navbar expand="lg" className="nav">
-        <h3 className=' col-6'>Jake Preciado</h3>
-        <Navbar.Toggle aria-controls="navbarNav" />
-        <Navbar.Collapse id="navbarNav">
-          <Nav className="nav-links-container col">
-            <Nav.Link as={Link} to="/" className="nav-link" name="aboutMe">
-              About Me
-            </Nav.Link>
-            <Nav.Link as={Link} to="/portfolio" className="nav-link" name="portfolio">
-              Portfolio
-            </Nav.Link>
-            <Nav.Link as={Link} to="/resume" className="nav-link" name="resume">
-              Resume
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contact" className="nav-link" name="contact">
-              Contact Me
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar> */}
       <header className='sticky-top'>
       <Navbar expand="lg" className="navbar navbar-dark navbar-expand-lg" aria-label="Main">
         <div className="container">

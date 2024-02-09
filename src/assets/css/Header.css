@@ -1,12 +1,13 @@
 .navbar {
   background-color: black !important;
   width: 100vw;
+  border-bottom: thin !important;
 }
 
 .nav-link {
   color: white !important;
   margin-right: 12px;
-  
+  font-size: 14px !important;
 }
 
 .nav-link:hover {

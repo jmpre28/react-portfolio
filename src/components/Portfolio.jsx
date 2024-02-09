@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Card } from 'semantic-ui-react';
-import ProjectCard from './Card';
+
 
 // Direct image imports for the project cards
 import IntelliStockLogo from '../assets/images/intellistock.jpg';
@@ -64,21 +63,12 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <Container>
+        <container>
             <h2>My Portfolio</h2>
             <p>An ever evolving collection of projects I've worked on throughout my studies. Check it out!</p>
-            <Card.Group centered itemsPerRow={3}>
-                {projects.map((project) => (
-                    <ProjectCard
-                        key={project.id}
-                        title={project.title}
-                        description={project.description}
-                        imageUrl={project.imageUrl}
-                        deployLink={project.deployLink}
-                        githubLink={project.githubLink}
-                    />
-                ))}
-            </Card.Group>
-        </Container>
+            <div centered itemsPerRow={3}>
+                
+            </div>
+        </container>
     );
 };

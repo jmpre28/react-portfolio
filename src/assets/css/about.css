@@ -1,0 +1,12 @@
+.profile-picture {
+    border-radius: 50%;
+}
+
+.second-picture {
+    display: flex;
+    justify-content: center !important;
+}
+
+.backdrop {
+    background-image:url('../images/oregon-trees.jpg');
+}
