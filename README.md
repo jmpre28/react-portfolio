@@ -55,4 +55,4 @@ Coming soon...
 
 ## Links
 
-Visit my deployed portfolio application <a href="https://jakepreciado-portfolio.netlify.app/portfolio">here!</a>
+Visit my deployed portfolio application <a href="https://jakepreciado-portfolio.netlify.app/">here!</a>
