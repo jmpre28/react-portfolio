@@ -51,7 +51,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Examples
 
-<img src="./src/components/images/app-screenshot-example.jpg" alt="Screenshot of my deployed react portfolio">
+Coming soon...
 
 ## Links
 
